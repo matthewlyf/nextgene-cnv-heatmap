@@ -43,7 +43,7 @@ pip install pandas seaborn matplotlib numpy openpyxl
 
 1. **Clone or Download the Repository**:
    ```bash
-   git clone https://github.com/YourGitHubUsername/cnv-heatmap-generator.git
+   git clone https://github.com/matthewlyf/cnv-heatmap-generator.git
    cd cnv-heatmap-generator
    ```
 
@@ -82,7 +82,7 @@ python cnv_heatmap.py
 
 The script will:
 1. Save `ATM_dataframe.csv`, `BRCA1_dataframe.csv`, etc., in the output folder.
-2. Generate a heatmap PNG visualizing gains/losses for `PALB2`.
+2. Generate a heatmap PNG visualizing gains/losses.
 
 ---
 
@@ -128,20 +128,5 @@ cnv-heatmap-generator/
 2. **Environment-Specific**:
    - The script includes placeholder paths (`PATH/TO/...`) that must be replaced with valid local or network paths.
 
-3. **Diagnostic Use**:
-   - This script is intended for research or internal analysis. Interpret results with caution and verify with qualified personnel.
 
 ---
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## Contact
-
-For questions or issues, contact:  
-**Name**: [Your Name]  
-**Email**: [Your Email]  
-**GitHub**: [YourGitHubProfile](https://github.com/YourGitHubUsername)
